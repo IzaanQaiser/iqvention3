@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQvention - Web Development & Digital Marketing Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/lucide-icons/dist/umd/lucide.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">
+                <i data-lucide="laptop"></i>
+                <span>IQvention</span>
+            </div>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#accomplishments">Accomplishments</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
+                <button class="btn btn-primary">Get Started</button>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Transform Your Digital Presence</h1>
+                        <p>Elevate your business with cutting-edge web development, strategic digital marketing, and expert SEO services.</p>
+                        <div class="hero-buttons">
+                            <button class="btn btn-primary">
+                                Get Started
+                                <i data-lucide="arrow-right"></i>
+                            </button>
+                            <button class="btn btn-outline">View Our Work</button>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=800&fit=crop" alt="Digital Marketing">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Services</h2>
+                    <p>Comprehensive digital solutions to help your business thrive in the modern age</p>
+                </div>
+                <div class="services-grid">
+                    <!-- Services will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="accomplishments" class="accomplishments">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Accomplishments</h2>
+                    <p>Delivering exceptional results through innovation and expertise</p>
+                </div>
+                <div class="stats-grid">
+                    <!-- Stats will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>What Our Clients Say</h2>
+                    <p>Don't just take our word for it - hear from some of our satisfied clients</p>
+                </div>
+                <div class="testimonials-carousel">
+                    <!-- Testimonials will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Pricing Packages</h2>
+                    <p>Choose the perfect package for your business needs</p>
+                </div>
+                <div class="pricing-grid">
+                    <!-- Pricing cards will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Get In Touch</h2>
+                    <p>Ready to transform your digital presence? Let's talk about your project.</p>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="john@example.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" placeholder="How can we help?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" placeholder="Tell us about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            Send Message
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <div class="logo">
+                        <i data-lucide="laptop"></i>
+                        <span>IQvention</span>
+                    </div>
+                    <p>Transforming businesses through innovative digital solutions.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                        <a href="#" aria-label="GitHub"><i data-lucide="github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                        <li><a href="#">SEO Optimization</a></li>
+                        <li><a href="#">Mobile Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> IQvention. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="app.js"></script>
+</body>
+</html>
