@@ -93,7 +93,7 @@ const testimonials = [
         name: 'Sarah Johnson',
         role: 'CEO, TechStart',
         content: 'IQvention transformed our online presence completely. Our conversion rates have increased by 150% since the redesign.',
-        image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop'
+        image: 'https://images.u'
     },
     {
         name: 'Michael Chen',
@@ -105,7 +105,7 @@ const testimonials = [
         name: 'Emily Davis',
         role: 'Marketing Director, Innovate Inc',
         content: 'Working with IQvention has been a game-changer for our digital marketing strategy. They truly understand our needs.',
-        image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop'
+        image: 'https://imaop'
     }
 ];
 
